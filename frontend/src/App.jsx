@@ -12,13 +12,6 @@ export default function App() {
   }, []);
  console.log(dt)
   return (
-  <div >
-    {dt.map((v,i)=>(
-      <div key={i}>
-       <b>{v.title}</b>
-       <p>{v.body}</p>
-      </div>
-    ))}
-    </div>
+  <div>{dt.length}</div>
   );
 }
